@@ -1,0 +1,148 @@
+[
+{
+  "model": "cities.city",
+  "pk": 2,
+  "fields": {
+    "name": "Москва"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 3,
+  "fields": {
+    "name": "МинВоды"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 4,
+  "fields": {
+    "name": "Краснодар"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 5,
+  "fields": {
+    "name": "Киев"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 6,
+  "fields": {
+    "name": "Астана"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 7,
+  "fields": {
+    "name": "Порту"
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 1,
+  "fields": {
+    "name": "Маршрут Астана - Киев №1",
+    "travel_times": 27,
+    "from_city": 6,
+    "to_city": 5,
+    "trains": [
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 1,
+  "fields": {
+    "name": "01",
+    "travel_time": 10,
+    "from_city": 6,
+    "to_city": 3
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 2,
+  "fields": {
+    "name": "02",
+    "travel_time": 13,
+    "from_city": 6,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 3,
+  "fields": {
+    "name": "03",
+    "travel_time": 14,
+    "from_city": 3,
+    "to_city": 4
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 4,
+  "fields": {
+    "name": "04",
+    "travel_time": 12,
+    "from_city": 4,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 5,
+  "fields": {
+    "name": "05",
+    "travel_time": 8,
+    "from_city": 5,
+    "to_city": 2
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 6,
+  "fields": {
+    "name": "06",
+    "travel_time": 14,
+    "from_city": 2,
+    "to_city": 4
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 7,
+  "fields": {
+    "name": "07",
+    "travel_time": 20,
+    "from_city": 2,
+    "to_city": 3
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 8,
+  "fields": {
+    "name": "08",
+    "travel_time": 20,
+    "from_city": 2,
+    "to_city": 6
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 9,
+  "fields": {
+    "name": "09",
+    "travel_time": 15,
+    "from_city": 6,
+    "to_city": 4
+  }
+}
+]
